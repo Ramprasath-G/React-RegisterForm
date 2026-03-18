@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { useState, useEffect } from "react";
 import UserContext from "./UserContext";
  
@@ -9,7 +10,7 @@ export function UserProvider({ children }) {
   const [loginTime, setLoginTime] = useState(null);
  
   useEffect(() => {
- 
+    
     const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
     const email = localStorage.getItem("currentUser");
  

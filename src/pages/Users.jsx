@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { useUser } from "../context/useUser";
+
 function Users() {
  
-    const {users} = useUser();
+    const users=localStorage.getItem("Users")||[];
 
  
   return (
