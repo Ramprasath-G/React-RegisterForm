@@ -26,6 +26,7 @@ function Login() {
       login(validuser)
       navigate("/dashboard")
       logs.push("user Logged in")
+      window.location.reload();
     }
     else{
       alert("Invalid Credentials")
