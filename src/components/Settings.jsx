@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import Sidebar from "./sidebar";
 import hashPassword from "../utils/Hash";
 
 
