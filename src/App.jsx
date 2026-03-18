@@ -8,7 +8,7 @@ import DashboardHome from "./pages/DashboardHome";
 import Users from "./pages/Users";
 import UserDetails from "./pages/UserDeatils";
 import Profile from "./pages/Profile";
-import Settings from "./components/settings";
+import Settings from "./components/Settings";
 import Activity from "./pages/Activity";
 import Analytics from "./pages/Analytics";
 import ProtectedRoute from "./components/ProtectedRoute";
